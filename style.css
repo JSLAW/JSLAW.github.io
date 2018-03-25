@@ -1,0 +1,1028 @@
+font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format ('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff'),
+         url('fonts/BebasNeue-webfont.ttf') format ('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format (embedded-opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'BebasNeueRegular';
+  src: url('fonts/BebasNeue-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/BebasNeue-webfont.woff') format('woff'), /* Modern Browsers */
+       url('fonts/BebasNeue-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg'); /* Legacy iOS */
+}
+
+/* Changing text selection color: */
+
+::selection {color:#344451;background:#d2e8f6;}
+::-moz-selection {color:#344451;background:#d2e8f6;}
+
+
+
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    cursor: pointer;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+@media(max-width:600px) {
+    #countdown li {
+        width: 75px;
+        height: 75px;
+    }
+    #countdown .days #countdown .hours #countdown .minutes, #countdown .seconds {
+        font-size: 30px;
+        margin: 25px;
+    }
+}
+
+@media(max-width:480px) {
+    #countdown li {
+        width: 75px;
+        height: 75px;
+    }
+    #countdown .days #countdown .hours #countdown .minutes, #countdown .seconds {
+        font-size: 30px;
+        margin: 25px;
+    }
+    #countdown .textDays, #countdown .textHours, #countdown .textMinutes, #countdown .textSeconds {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:480px) {
+    #countdown {
+        margin: 40px 0 70px;
+    }
+}
+
+/*** General style ***/
+
+html {
+    width: 100%;
+    background: url(http://i.imgur.com/Ltfhm9Q.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    line-height: 1;
+    width: 100%;
+    font-size: 10px;
+    font-family: 'BebasNeueRegular', arial, helvetica;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'BebasNeueRegular', arial, helvetica;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 7em;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 6em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 5em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 4em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+h5 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+h6 {
+    font-size: 2.5em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.9em;
+    color: #fff;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.top_text {
+    color: #344451;
+}
+
+.fs-text {
+    color: white;
+    font-size: 23.4px;
+    margin-top: -9px;
+}
+
+.container {
+    max-width: 970px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container: before, .container:after {
+    content: " ";
+    display:table;
+}
+
+.container:after {
+    clear: both;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+#countdown {
+    text-align: center;
+    margin: 60px 0 80px;
+    padding-left: 0;
+    list-style: none;
+}
+
+#countdown li {
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 40px;
+    color: #fff;
+    list-style: none;
+    line-height: 1;
+    margin: 0 4px;
+    letter-spacing: 2px;
+    -webkit-transform: rotate(-45deg);
+    -ns-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+#countdown .days, #countdown .hours, #countdown .minutes, #countdown .seconds {
+    font-family: 'BebasNeueRegular', arial, helvetica;
+    margin-top: 30px;
+    -webkit-transform: rotate(45deg) translate3d( 0, 0, 0);
+    -ns-transform: rotate(45deg) translate3d( 0, 0, 0);
+    transform: rotate(45deg) translate3d( 0, 0, 0);
+    color: #d2e8f6;
+}
+
+#countdown .textDays, #countdown .textHours, #countdown .textMinutes, #countdown .textSeconds {
+    font-family: 'BebasNeueRegular', arial, helvetica;
+    position: absolute;
+    bottom: 2px;
+    left: 5px;
+    font-size: 15px;
+    color: #d2e8f6;
+}
+
+.countdown-section {
+    margin-top: -40px;
+}
+
+.countdown-heading {
+    font-family: Garamond, arial, helvetica;
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+    font-size: 25px;
+    text-shadow: 1px 1px black;
+}
+
+a, a:hover {
+    text-decoration: none;
+    font-size: 7em;
+    color: #fff;
+}
+
+.icon {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 47px; 
+    padding: 5px;
+}
+
+.icon:hover {
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+#images{
+    margin-top: -25px;
+    text-align:center;
+}
+
+.top-portion {
+    position: relative;
+    top: 30px;
+}
+
+.dp-line {
+    height: 1px;
+    width: 70%;
+    background-color: #344451;
+    margin-top: 100px;
+    margin-left: 15%;
+}
+
+.dp-container {
+    margin-left:auto;
+    margin-right:auto;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: white;
+    border-width: 1px;
+    border-color: #344451;
+    border-style: solid;
+    margin-top: -55px;
+}
+
+.dp {
+    background-image: url(images/00%20Profile%20Pic.png);
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 5px;
+    border: 1px solid #344451;
+}
+
+.bottom-line {
+    height: 0.5px;
+    width: 70%;
+    background-color: #344451;
+    margin-left: 15%;
+}
+
+.back-button {
+    font-family: Garamond, arial, helvetica;
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+}
+
+footer {
+    margin-top: 20px;
+    font-family: Garamond, arial, helvetica;
+    font-size: 1.7em;
+    text-shadow: 1px 1px black;
+    color: white;
+    text-align: center;
+}
+
+.navi-container {
+}
+
+.navi {
+    text-align: center;
+    display: inline;
+}
+
+.navi p a {
+    font-size: 25px;
+    text-shadow: 1px 1px black;
+    font-family: Garamond, arial, helvetica;
+}
+
+.navi p a:hover {
+    text-shadow: none;
+    color: #344451;
+}
+
+.about-me-container, .projects-section-container {
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    font-family: Garamond, arial, helvetica;
+}
+
+.about-me {
+    width: auto;
+    text-align: justify;
+}
+
+.item-container {
+    width: 100%;
+    height: 200px;
+}
+
+.project-thumbnail-container {
+    width: 20%;
+    display: inline-block;
+    float: left;
+    height: 200px;
+}
+
+#jugaad{
+      width:960px;
+      margin:0 auto;
+ }
+
+.project-date {
+    font-size: 20px;
+    font-family: Garamond, arial, helvetica;
+}
+
+.project-heading-container {
+    width: 50%;
+    display: inline-block
+}
+
+.project-date-container {
+    width: 30%;
+    float: right;
+    margin-top: 8px;
+    text-align: right;
+}
+
+.project-thumbnail-thermocalc {
+    width: 100%;
+}
+
+.project-thumbnail {
+    width: 93%;
+    border-radius: 10%;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 3px solid white;
+    height: 86%;
+}
+
+.link, .link:hover {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.link {
+    color: #d2e8f6;
+    font-weight: bold;
+}
+
+.project-description {
+    width: 78%;
+    float: right;
+    height: 200px;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+.sub-headings {
+    color: #d2e8f6;
+}
+
+.section-heading {
+    font-family: Garamond, arial, helvetica;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.project-heading {
+    font-family: Garamond, arial, helvetica;
+    margin-top: 5px;
+}
+
+.line {
+    width: 96%;
+    height: 1px;
+    margin-left: 2%;
+    background-color: grey;
+    margin-bottom: 15px;
+}
+
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+#buttons {
+	margin-top: 25px;
+    float:right;
+    text-align: center;
+}
+
+.btn {
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.blue {
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.blue:hover {
+  background-color: #6FC6FF;
+}
+
+.green {
+  background-color: #2ecc71;
+  box-shadow: 0px 5px 0px 0px #15B358;
+}
+
+.green:hover {
+  background-color: #48E68B;
+}
+
+.red {
+  background-color: #e74c3c;
+  box-shadow: 0px 5px 0px 0px #CE3323;
+}
+
+.red:hover {
+  background-color: #FF6656;
+}
+
+.purple {
+  background-color: #9b59b6;
+  box-shadow: 0px 5px 0px 0px #82409D;
+}
+
+.purple:hover {
+  background-color: #B573D0;
+}
+
+.orange {
+  background-color: #e67e22;
+  box-shadow: 0px 5px 0px 0px #CD6509;
+}
+
+.orange:hover {
+  background-color: #FF983C;
+}
+
+.yellow {
+  background-color: #f1c40f;
+  box-shadow: 0px 5px 0px 0px #D8AB00;
+}
+
+.yellow:hover {
+  background-color: #FFDE29;
+}
+
+.button-link, .button-link:hover{
+    font-family: arial;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
